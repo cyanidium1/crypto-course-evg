@@ -1,0 +1,259 @@
+{
+  "CourseForYouIf": {
+    "title": "Course for beginners:",
+    "item1": "Know nothing about crypto? We'll break it down",
+    "item2": "Looking for investments? Find coins with 2025 potential",
+    "item3": "Afraid of hackers? Learn to protect every cent",
+    "item4": "Want to understand the tool? See how crypto works",
+    "item5": "Send and receive payments? Master crypto transactions",
+    "item6": "Earn on crypto? Simple strategies for profit",
+    "item7": "Extra income? Create a new source from $5"
+  },
+  "TargetAudience": {
+    "title": "Who is this course for?",
+    "item1": "Beginners with no crypto knowledge",
+    "item2": "Students with a small budget",
+    "item3": "Freelancers and digital nomads",
+    "item4": "Entrepreneurs and businessmen",
+    "item5": "Bloggers and content creators",
+    "item6": "Novice traders",
+    "item7": "Parents looking for a safety cushion"
+  },
+  "CourseStructure": {
+    "title": "Course Structure",
+    "module1": {
+      "title": "Quick Start",
+      "num": "Module: 1",
+      "tabs": {
+        "tab1": {
+          "name": "Basics of any registration",
+          "url": ""
+        },
+        "tab2": {
+          "name": "Verification",
+          "url": ""
+        },
+        "tab3": {
+          "name": "Nuances",
+          "url": ""
+        }
+      }
+    },
+    "module2": {
+      "title": "Balance Top-up",
+      "num": "Module: 2",
+      "tabs": {
+        "tab1": {
+          "name": "Top-up without fees",
+          "url": ""
+        },
+        "tab2": {
+          "name": "Best methods",
+          "url": ""
+        },
+        "tab3": {
+          "name": "P2P trading",
+          "url": ""
+        }
+      }
+    },
+    "module3": {
+      "title": "Buying Cryptocurrency",
+      "num": "Module: 3",
+      "tabs": {
+        "tab1": {
+          "name": "Step by step",
+          "url": ""
+        },
+        "tab2": {
+          "name": "Different methods",
+          "url": ""
+        },
+        "tab3": {
+          "name": "Understanding charts",
+          "url": ""
+        }
+      }
+    },
+    "module4": {
+      "title": "Understanding Crypto",
+      "num": "Module: 4",
+      "tabs": {
+        "tab1": {
+          "name": "Where it comes from",
+          "url": ""
+        },
+        "tab2": {
+          "name": "How it's used",
+          "url": ""
+        },
+        "tab3": {
+          "name": "Key terms",
+          "url": ""
+        }
+      }
+    },
+    "module5": {
+      "title": "Maximum Security",
+      "num": "Module: 5",
+      "tabs": {
+        "tab1": {
+          "name": "Protection settings",
+          "url": ""
+        },
+        "tab2": {
+          "name": "Crypto hygiene rules",
+          "url": ""
+        }
+      }
+    },
+    "module6": {
+      "title": "Withdrawing Profits",
+      "num": "Module: 6",
+      "tabs": {
+        "tab1": {
+          "name": "Getting cash to card",
+          "url": ""
+        },
+        "tab2": {
+          "name": "Avoiding extra fees",
+          "url": ""
+        },
+        "tab3": {
+          "name": "Practice",
+          "url": ""
+        }
+      }
+    },
+    "module7": {
+      "title": "Earning with Crypto",
+      "num": "Module: 7",
+      "tabs": {
+        "tab1": {
+          "name": "11 current methods",
+          "url": ""
+        },
+        "tab2": {
+          "name": "Beyond trading",
+          "url": ""
+        },
+        "tab3": {
+          "name": "Principles",
+          "url": ""
+        }
+      }
+    },
+    "module8": {
+      "title": "Investment Opportunities",
+      "num": "Module: 8",
+      "tabs": {
+        "tab1": {
+          "name": "2025 trends",
+          "url": ""
+        },
+        "tab2": {
+          "name": "Coin analysis",
+          "url": ""
+        },
+        "tab3": {
+          "name": "Action plan",
+          "url": ""
+        }
+      }
+    }
+  },
+  "Tariffs": {
+    "title": "Tariffs",
+    "base": {
+      "title": "Basic",
+      "point1": "6 blocks",
+      "point2": "The most useful crypto guide for beginners",
+      "price": "10$"
+    },
+    "pro": {
+      "title": "Pro",
+      "point1": "6 blocks +",
+      "point2": "block \"earning on crypto\"",
+      "point3": "The most useful crypto guide for beginners",
+      "price": "20$"
+    },
+    "expert": {
+      "title": "Expert",
+      "point1": "6 blocks +",
+      "point2": "block \"earning on crypto\"",
+      "point3": "The most useful crypto guide for beginners",
+      "point4": "Top 5 investment directions",
+      "price": "30$"
+    },
+    "button": "Buy"
+  },
+  "Pros": {
+    "title": "Course benefits",
+    "item1": "Short and informative videos",
+    "item2": "Convenient viewing format",
+    "item3": "Lifetime access",
+    "item4": "Material can be mastered in less than an hour",
+    "item5": "80% of the material is practical actions: take and repeat",
+    "item6": "Systematic and structured information"
+  },
+  "Faq": {
+    "title": "FAQ",
+    "question1": {
+      "title": "Where will the training take place?",
+      "answer": "In a private Telegram channel, accessible 24/7 from any device. No Zoom calls or time constraints - learn at your own pace."
+    },
+    "question2": {
+      "title": "What happens after purchasing the course?",
+      "answer": "You instantly receive a personal access link to the private community. All materials and bonuses become available immediately."
+    },
+    "question3": {
+      "title": "How long is the course?",
+      "answer": "Just ~60 minutes of concentrated knowledge without fluff. Only what really works and brings results."
+    },
+    "question4": {
+      "title": "How long will I have access to the materials?",
+      "answer": "Lifetime access to the course and all future updates."
+    },
+    "question5": {
+      "title": "When can I start learning?",
+      "answer": "Immediately after payment - no waiting for course starts or group formation."
+    },
+    "question6": {
+      "title": "Is this course suitable for complete beginners?",
+      "answer": "Perfect fit! The course starts from zero and explains even complex topics in simple language. We consider that many are hearing about cryptocurrency for the first time."
+    },
+    "question7": {
+      "title": "Is it worth taking if I've already traded crypto?",
+      "answer": "Absolutely yes. You'll learn professional traders' strategies that aren't shared in public."
+    },
+    "question8": {
+      "title": "What amount can I start with?",
+      "answer": "You can start with $1. Moreover, beginners get a bonus - the opportunity to receive their first cryptocurrency for free right after registration."
+    },
+    "question9": {
+      "title": "Do I need a computer for learning?",
+      "answer": "No, all operations can be performed from a smartphone. In the course, we show every action in detail specifically from a mobile phone."
+    },
+    "question10": {
+      "title": "How soon will I see first results?",
+      "answer": "You can register, buy your first coin, and form a portfolio on day one. As for profits, 78% of our students made gains in their first week of actively applying the knowledge."
+    },
+    "question11": {
+      "title": "How much time should I dedicate to learning?",
+      "answer": "For maximum results, 15-20 minutes per day is sufficient. Moreover, you can complete the ENTIRE course in one hour. You can go through the materials at your own pace, combining learning with other activities."
+    },
+    "question12": {
+      "title": "What skills will I gain after the course?",
+      "answer": "You'll learn to safely work with exchanges, select promising coins, apply working earning strategies, and withdraw profits in any convenient way without extra fees."
+    },
+    "question13": {
+      "title": "Why buy the course when there's lots of free information online?",
+      "answer": "There's a lot of contradictory, outdated, and dangerous information online. Our course is a proven roadmap that will save you from costly mistakes and reduce your learning curve from months of self-study to just one hour."
+    }
+  },
+  "PurchaseSection": {
+    "title": "Discover the secrets of earning with cryptocurrency right now",
+    "description": "Start understanding and making money. And then imagine... what will you spend your first profit on?",
+    "timer": "Time left until the end of the promotion"
+  }
+}

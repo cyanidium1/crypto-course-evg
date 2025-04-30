@@ -17,6 +17,7 @@ export default function IfYouWantSection() {
     item5: t("point5"),
     item6: t("point6"),
     item7: t("point7"),
+    item8: t("point8"),
   });
 
   const containerVariants = {

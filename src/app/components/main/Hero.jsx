@@ -13,6 +13,7 @@ import {
   subtitleAnimation,
   titleAnimation,
 } from "../../../app/helpers/animation";
+import { PRICES } from "../../constants/prices";
 
 export default function Hero() {
   const t = useTranslations("Hero");
@@ -84,10 +85,10 @@ export default function Hero() {
           <PurchaseBtn buttonVariant="large" />
           <div className="flex items-center gap-[10px] lg:gap-4 mt-3 justify-center w-full">
             <p className="text-[#FF4A77] text-xl font-semibold leading-[1.08] lg:text-2xl lg:leading-normal">
-              99 $
+              {PRICES.BASE.SALE}
             </p>
             <p className="text-[#C5C5C5] font-semibold text-sm line-through">
-              200$
+              {PRICES.BASE.REGULAR}
             </p>
           </div>
         </motion.div>

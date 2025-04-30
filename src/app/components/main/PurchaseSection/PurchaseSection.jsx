@@ -2,6 +2,7 @@ import Container from "../../../../utils/Container";
 import { useTranslations } from "next-intl";
 import TimerBlock from "./TimerBlock";
 import PurchaseBtn from "../common/PurchaseBtn";
+import { PRICES } from "../../../constants/prices";
 
 export default function PurchaseSection() {
   const t = useTranslations("PurchaseSection");
@@ -36,6 +37,14 @@ export default function PurchaseSection() {
 
                 <div className="w-[268px] md:w-[534px] flex flex-col items-center gap-[10px] mx-auto">
                   <PurchaseBtn textColor="#fff" buttonVariant="largeGradient" />
+                  <div className="flex items-center gap-4">
+                    <p className="text-[#FF4A77] text-xl font-semibold leading-[1.84] lg:text-2xl lg:leading-[1.53]">
+                      {PRICES.BASE.SALE}
+                    </p>
+                    <p className="text-[#959595] font-semibold text-sm line-through leading-[2.63] md:text-base md:leading-[2.3]">
+                      {PRICES.BASE.REGULAR}
+                    </p>
+                  </div>
                 </div>
               </div>
 

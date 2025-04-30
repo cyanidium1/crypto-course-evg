@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
+import { PRICES } from "../../constants/prices";
 
 export default function PaymentSection() {
   const [plan, setPlan] = useState(null);
@@ -22,19 +23,19 @@ export default function PaymentSection() {
 
     switch (plan) {
       case "base":
-        oldPrice = 200;
-        newPrice = 99;
-        sale = 50;
+        oldPrice = parseInt(PRICES.BASE.REGULAR);
+        newPrice = parseInt(PRICES.BASE.SALE);
+        sale = Math.round(((oldPrice - newPrice) / oldPrice) * 100);
         break;
       case "pro":
-        oldPrice = 300;
-        newPrice = 149;
-        sale = 50;
+        oldPrice = parseInt(PRICES.PRO.REGULAR);
+        newPrice = parseInt(PRICES.PRO.SALE);
+        sale = Math.round(((oldPrice - newPrice) / oldPrice) * 100);
         break;
       case "expert":
-        oldPrice = 500;
-        newPrice = 299;
-        sale = 40;
+        oldPrice = parseInt(PRICES.EXPERT.REGULAR);
+        newPrice = parseInt(PRICES.EXPERT.SALE);
+        sale = Math.round(((oldPrice - newPrice) / oldPrice) * 100);
         break;
       default:
         break;
@@ -56,19 +57,19 @@ export default function PaymentSection() {
         <div className="flex justify-between ">
           <p className="text-[15px] leading-[1.17]">{t("price")}</p>
           <p className="line-through text-base leading-[1.17] font-semibold">
-            {oldPrice} $
+            {oldPrice}$
           </p>
         </div>
         <div className="flex justify-between">
           <p className="text-[15px] leading-[1.17] font-bold">{t("sale")}</p>
           <p className="text-base leading-[1.17] text-[#FF398B] font-bold">
-            {sale} %
+            {sale}%
           </p>
         </div>
         <hr className="w-full h-[1px] bg-[#A0A0A0]" />
         <div className="flex justify-between">
           <p className="text-[15px] leading-[1.17]">{t("priceAfter")}</p>
-          <p className="text-base leading-[1.17] font-semibold">{newPrice} $</p>
+          <p className="text-base leading-[1.17] font-semibold">{newPrice}$</p>
         </div>
       </div>
     </div>

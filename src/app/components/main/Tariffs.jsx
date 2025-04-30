@@ -3,6 +3,7 @@ import Container from "../../../utils/Container";
 import { useTranslations } from "next-intl";
 import PurchaseBtn from "./common/PurchaseBtn";
 import { useRouter } from "next/navigation";
+import { PRICES } from "../../constants/prices";
 
 export default function Tariffs() {
   const router = useRouter();
@@ -17,7 +18,6 @@ export default function Tariffs() {
     item1: t("pro.point1"),
     item2: t("pro.point2"),
     item3: t("pro.point3"),
-    item4: t("pro.point4"),
   });
 
   const expertPoints = Object.values({
@@ -43,7 +43,6 @@ export default function Tariffs() {
           <li className="p-8 px-6 lg:px-9 lg:pt-9 rounded-[28px] w-[313px] h-[467px] l:h-[465px] lg:w-[360px] shadow-[4px_6px_10px_4px_rgba(167,93,243,0.20)_inset] relative overflow-hidden mb-[47px] md:mb-0 flex flex-col justify-between">
             {/* gradient */}
             <div className="w-[184.357px] h-[173.591px] radial-violet-gradient absolute top-[-67px] right-[-162px] " />
-
             <div className="w-[184.357px] h-[173.591px] radial-blue-gradient absolute bottom-[-133px]  left-[-46px]" />
             {/* /gradient */}
 
@@ -54,10 +53,10 @@ export default function Tariffs() {
 
               <div className="flex items-end gap-[22px] mb-[29px]">
                 <p className="font-manrope text-[64px] font-bold uppercase leading-[1.17] lg:text-[74px] lg:leading-[1.17]">
-                  99{"\u00A0"}$
+                  {PRICES.BASE.SALE}
                 </p>
                 <p className="font-manrope text-xl font-bold uppercase leading-[1.17] line-through">
-                  {"\u00A0\u00A0"}200${"\u00A0\u00A0"}
+                  {PRICES.BASE.REGULAR}
                 </p>
               </div>
 
@@ -106,10 +105,10 @@ export default function Tariffs() {
 
               <div className="flex items-end gap-[22px]  mb-[29px]">
                 <p className="font-manrope text-[64px] font-bold uppercase leading-[1.17] lg:text-[74px] lg:leading-[1.17]">
-                  149{"\u00A0"}$
+                  {PRICES.PRO.SALE}
                 </p>
                 <p className="font-manrope text-xl font-bold uppercase leading-[1.17] line-through">
-                  {"\u00A0\u00A0"}300${"\u00A0\u00A0"}
+                  {PRICES.PRO.REGULAR}
                 </p>
               </div>
 
@@ -152,10 +151,10 @@ export default function Tariffs() {
 
               <div className="flex items-end gap-[22px]  mb-[29px]">
                 <p className="font-manrope text-[64px] font-bold uppercase leading-[1.17] lg:text-[74px] lg:leading-[1.17]">
-                  299{"\u00A0"}$
+                  {PRICES.EXPERT.SALE}
                 </p>
                 <p className="font-manrope text-xl font-bold uppercase leading-[1.17] line-through">
-                  {"\u00A0\u00A0"}500${"\u00A0\u00A0"}
+                  {PRICES.EXPERT.REGULAR}
                 </p>
               </div>
 
