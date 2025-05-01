@@ -7,10 +7,18 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 
 export const metadata = {
-  title: "Cyanidium Dev. Template",
-  description: "NextJS NextUI template",
+  title: "Крипта с нуля | Евгений Гребиненко",
+  description:
+    "Быстрый старт в криптовалюте. Простой курс из 8 уроков для новичков от крипто-эксперта Евгения Гребиненко",
   icons: {
     icon: "/icons/favicon.ico",
+  },
+  manifest: "/icons/manifest.json",
+  themeColor: "#ffffff",
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 1,
   },
 };
 

@@ -35,7 +35,7 @@ export default function About() {
           <div className="rounded-[15.4px] w-full md:h-[398px] lg:w-[550px] overflow-hidden">
             <Image
               src={img}
-              alt="Aleko Sokurashvili"
+              alt="Евгений Гребиненко - крипто-эксперт"
               sizes="100vh"
               className="w-full h-full object-cover rounded-[18px] lg:object-[-4px,-105px] lg:h-auto lg:object-unset"
               quality={100}

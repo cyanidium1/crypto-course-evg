@@ -48,6 +48,9 @@ export default function Footer() {
           </ul>
         </div>
       </div>
+      <p className="text-center text-sm">
+        © 2024 Евгений<span className="gradient-text"> Гребиненко</span>
+      </p>
     </footer>
   );
 }

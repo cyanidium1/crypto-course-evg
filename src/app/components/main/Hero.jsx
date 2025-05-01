@@ -32,7 +32,7 @@ export default function Hero() {
           >
             <Image
               src={heroMob}
-              alt="Aleko Sokurashvili"
+              alt="Евгений Гребиненко - крипто-эксперт"
               sizes="100vh"
               priority
               className="w-full h-auto md:hidden rounded-[18px]"
@@ -40,7 +40,7 @@ export default function Hero() {
             />
             <Image
               src={heroDesk}
-              alt="Aleko Sokurashvili"
+              alt="Евгений Гребиненко - крипто-эксперт"
               sizes="100vh"
               priority
               className="w-full h-auto hidden md:flex rounded-[18px]"

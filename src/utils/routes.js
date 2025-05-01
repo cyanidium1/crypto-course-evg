@@ -44,13 +44,45 @@ export const socialLinks = [
 export const socLinksAbout = [
   {
     name: "Instagram",
-    url: "https://www.instagram.com/aleko.so/",
+    url: "https://www.instagram.com/evgeniy.grebinenko/",
     icon: FaInstagram,
   },
-  { name: "TikTok", url: "https://www.tiktok.com/@aleko.so", icon: FaTiktok },
+  {
+    name: "TikTok",
+    url: "https://www.tiktok.com/@evgeniy.grebinenko",
+    icon: FaTiktok,
+  },
+  {
+    name: "Telegram",
+    url: "https://t.me/evgeniy_grebinenko",
+    icon: FaTelegram,
+  },
   {
     name: "YouTube",
-    url: "https://www.youtube.com/@aleko_so/shorts",
+    url: "https://www.youtube.com/@evgeniy_grebinenko/shorts",
+    icon: FaYoutube,
+  },
+  {
+    name: "Email",
+    url: "mailto:evgeniy.grebinenko@gmail.com",
+    icon: FaEnvelope,
+  },
+];
+
+export const socLinksFooter = [
+  {
+    name: "Instagram",
+    url: "https://www.instagram.com/evgeniy.grebinenko/",
+    icon: FaInstagram,
+  },
+  {
+    name: "TikTok",
+    url: "https://www.tiktok.com/@evgeniy.grebinenko",
+    icon: FaTiktok,
+  },
+  {
+    name: "YouTube",
+    url: "https://www.youtube.com/@evgeniy_grebinenko/shorts",
     icon: FaYoutube,
   },
 ];
