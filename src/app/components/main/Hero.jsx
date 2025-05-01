@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 import Container from "../../../utils/Container";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import heroMob from "../../../../public/image/hero/hero-mob.png";
-import heroDesk from "../../../../public/image/hero/hero-desk.png";
+import heroMob from "../../../../public/image/hero/hero-mob.jpg";
+import heroDesk from "../../../../public/image/hero/hero-desk.jpg";
 import PurchaseBtn from "../main/common/PurchaseBtn";
 import {
   buttonVariants,
@@ -35,7 +35,7 @@ export default function Hero() {
               alt="Aleko Sokurashvili"
               sizes="100vh"
               priority
-              className="w-full h-auto md:hidden"
+              className="w-full h-auto md:hidden rounded-[18px]"
               quality={100}
             />
             <Image
@@ -43,7 +43,7 @@ export default function Hero() {
               alt="Aleko Sokurashvili"
               sizes="100vh"
               priority
-              className="w-full h-auto hidden md:flex"
+              className="w-full h-auto hidden md:flex rounded-[18px]"
               quality={100}
             />
           </motion.div>

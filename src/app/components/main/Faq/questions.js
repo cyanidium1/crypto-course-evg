@@ -56,10 +56,6 @@ export const useQuestions = () => {
       title: t("question13.title"),
       answer: t("question13.answer"),
     },
-    question14: {
-      title: t("question14.title"),
-      answer: t("question14.answer"),
-    },
   });
 
   return questions;

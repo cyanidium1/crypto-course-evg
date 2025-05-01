@@ -40,7 +40,7 @@ export default function Header() {
             className="font-bold text-inherit font-sansation uppercase text-base l:text-[18px] leading-normal"
           >
             <p>
-              Aleko <span className="gradient-text"> Sokurashvili</span>
+              Crypto <span className="gradient-text"> Boost</span>
             </p>
           </Link>
         </NavbarBrand>

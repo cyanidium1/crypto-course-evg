@@ -50,11 +50,13 @@ export default function VideoSection() {
   const items = Object.values({
     item1: {
       text: t("item1"),
-      num: "12",
+      num: "6+",
+      isSpecial: true,
     },
     item2: {
       text: t("item2"),
-      num: "48",
+      num: "8",
+      isSpecial: true,
     },
     item3: {
       text: t("item3"),
@@ -76,7 +78,7 @@ export default function VideoSection() {
             <div className="w-full h-[369px] sm:h-[458px] rounded-[18px] overflow-hidden">
               <ReactPlayer
                 url="https://youtu.be/XXACgGVld_E?si=JuNlGnhQ_yvIWl5C"
-                light="/image/preview.png"
+                light="/image/preview.jpg"
                 width="100%"
                 height="100%"
                 controls
@@ -84,13 +86,13 @@ export default function VideoSection() {
             </div>
             {/* текстовий блок */}
             <ul
-              style={{ height: "fit-content" }} // костыль для высоты перезаписи класса градиента
+              style={{ height: "fit-content" }}
               className="px-[30px] py-[22px] md:py-[61px] l:px-[110px] rounded-[18px] gradient-background  flex md:flex-col gap-[30px] md:gap-7 justify-center md:w-[32%] l:w-[39%]"
             >
-              {items.map(({ text, num }, index) => (
+              {items.map(({ text, num, isSpecial }, index) => (
                 <li key={index} className="flex flex-col gap-1 md:gap-2">
                   <span className="text-[32px] md:text-5xl leading-[1.17] md:leading-[1.17] font-semibold">
-                    <Counter targetNumber={num} />
+                    {isSpecial ? num : <Counter targetNumber={num} />}
                   </span>
                   <p className="text-xs font-semibold leading-[1.17] uppercase md:text-lg md:leading-[1.17]">
                     {text}

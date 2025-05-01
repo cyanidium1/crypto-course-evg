@@ -1,27 +1,27 @@
 import Container from "../../../utils/Container";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import img from "../../../../public/image/about.png";
+import img from "../../../../public/image/about.jpg";
 import SocLinks from "../main/common/SocLinks";
 import { socLinksAbout } from "../../../utils/routes";
 
 export default function About() {
   const t = useTranslations("About");
 
-  const statisticData = [
-    {
-      num: "600",
+  const statistic = Object.values({
+    video: {
       text: t("statistic.video"),
+      num: "1000",
     },
-    {
-      num: "800\u00A0000\u00A0000",
+    views: {
       text: t("statistic.views"),
+      num: "$50 000",
     },
-    {
-      num: "1\u00A0300\u00A0000",
+    subscriber: {
       text: t("statistic.subscriber"),
+      num: "100+",
     },
-  ];
+  });
 
   return (
     <Container>
@@ -70,7 +70,7 @@ export default function About() {
       {/* statistic */}
       <div className="mb-[76px] mg:pb-[200px] mx-10 md:mx-0 px-12 py-9 rounded-[18px] md:rounded-none l:py-[63px] lg:pt-[70px] mt-9 l:mt-[84px] gradient-background">
         <ul className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-[94px] mx-auto justify-items-center lg:max-w-[880px] lg:pt-[10px]">
-          {statisticData.map(({ num, text }, index) => (
+          {statistic.map(({ num, text }, index) => (
             <li key={index}>
               <p className="font-semibold text-4xl leading-[1.17] l:text-5xl l:leaading-[1.17] mb-1 l:mb-[7.94px] text-center">
                 {num}

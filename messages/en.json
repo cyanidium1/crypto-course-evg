@@ -255,5 +255,26 @@
     "title": "Discover the secrets of earning with cryptocurrency right now",
     "description": "Start understanding and making money. And then imagine... what will you spend your first profit on?",
     "timer": "Time left until the end of the promotion"
+  },
+  "Hero": {
+    "title": "Quick Start in Crypto",
+    "colorText": "From zero to understanding and first steps in 60 minutes",
+    "description": "A simple and fast course of 8 short lessons, created specifically for beginners. No fluff, complex terms, or overload — just what you need to understand how crypto works in 1 hour."
+  },
+  "VideoSection": {
+    "item1": "modules",
+    "item2": "videos",
+    "item3": "working methods"
+  },
+  "About": {
+    "title": "Speaker",
+    "subtitle": "My name is ",
+    "colorSubtitle": "Evgeniy Grebinenko",
+    "description": " — I am a crypto expert with over 5 years of market experience. During this time, I've helped more than 100 people start earning with cryptocurrency. In my course, I share proven strategies that have helped my students achieve success.",
+    "statistic": {
+      "video": "Successful trades",
+      "views": "Trading volume",
+      "subscriber": "Students"
+    }
   }
 }
