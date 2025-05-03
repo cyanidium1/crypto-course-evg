@@ -50,12 +50,12 @@ export default function VideoSection() {
   const items = Object.values({
     item1: {
       text: t("item1"),
-      num: "6+",
+      num: "8",
       isSpecial: true,
     },
     item2: {
       text: t("item2"),
-      num: "8",
+      num: "12",
       isSpecial: true,
     },
     item3: {
@@ -75,9 +75,9 @@ export default function VideoSection() {
         <div className="px-10 lg:px-20 pb-[76px] lg:pb-[200px]">
           <div className="flex flex-col gap-6 md:flex-row-reverse md:gap-5 md:justify-between relative z-10">
             {/* відео */}
-            <div className="w-full h-[369px] sm:h-[458px] rounded-[18px] overflow-hidden">
+            <div className="w-full h-[550px] sm:h-[458px] rounded-[18px] overflow-hidden">
               <ReactPlayer
-                url="https://youtu.be/XXACgGVld_E?si=JuNlGnhQ_yvIWl5C"
+                url="https://vimeo.com/1081165391/517584da6f"
                 light="/image/preview.jpg"
                 width="100%"
                 height="100%"

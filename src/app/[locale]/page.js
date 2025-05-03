@@ -10,7 +10,7 @@ import Tariffs from "../components/main/Tariffs";
 import VideoSection from "../components/main/VideoSection";
 import About from "../components/main/About";
 import Pros from "../components/main/Pros";
-import Reviews from "../components/main/Reviews";
+// import Reviews from "../components/main/Reviews";
 import Faq from "../components/main/Faq/Faq";
 import PurchaseSection from "../components/main/PurchaseSection/PurchaseSection";
 
@@ -29,7 +29,7 @@ export default function Home() {
       <LearningIncludes />
       <About />
       <Pros />
-      <Reviews />
+      {/* <Reviews /> */}
       <Faq />
       <PurchaseSection />
     </>

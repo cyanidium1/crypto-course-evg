@@ -11,11 +11,11 @@ export default function About() {
   const statistic = Object.values({
     video: {
       text: t("statistic.video"),
-      num: "1000",
+      num: "2500+",
     },
     views: {
       text: t("statistic.views"),
-      num: "$50 000",
+      num: "$150 000",
     },
     subscriber: {
       text: t("statistic.subscriber"),

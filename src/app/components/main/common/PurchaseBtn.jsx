@@ -102,7 +102,7 @@ export default function PurchaseBtn({
           </motion.div>
         )}
       </Button>
-      {buttonVariant === "largeGradient" && (
+      {/* {buttonVariant === "largeGradient" && (
         <div className="flex items-center gap-4">
           <p className="text-[#FF4A77] text-xl font-semibold leading-[1.84] lg:text-2xl lg:leading-[1.53]">
             99 $
@@ -111,7 +111,7 @@ export default function PurchaseBtn({
             200$
           </p>
         </div>
-      )}
+      )} */}
     </>
   );
 }

@@ -276,5 +276,14 @@
       "views": "Trading volume",
       "subscriber": "Students"
     }
+  },
+  "LearningIncludes": {
+    "title": "Course includes",
+    "item1": "8 compact modules with step-by-step instructions",
+    "item2": "Top 5 market sectors showing promising growth",
+    "item3": "Instructions for working with popular exchanges",
+    "item4": "Personal referral link for exchange bonuses",
+    "item5": "Curated collection of verified crypto market information sources",
+    "item6": "Analysis of common beginner mistakes and how to avoid them"
   }
 }
