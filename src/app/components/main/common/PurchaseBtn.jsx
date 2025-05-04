@@ -2,7 +2,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@nextui-org/react";
 import { useTranslations } from "next-intl";
-import { useRouter } from "next/navigation";
 
 export default function PurchaseBtn({
   buttonVariant = "default",
@@ -14,23 +13,29 @@ export default function PurchaseBtn({
 }) {
   const t = useTranslations("ModalBtn");
   const f = useTranslations("Tariffs");
-  const router = useRouter();
   const btnText = t("btnText");
   const btnTextSmall = f("button");
 
-  // Варианты анимации круга
+  const scrollToTariffs = () => {
+    const tariffsSection = document.getElementById("tariffs");
+    if (tariffsSection) {
+      tariffsSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  // Анимация круга
   const circleVariants = {
     hidden: { x: "-100%" },
     visible: { x: "0%", transition: { duration: 1, ease: "easeOut" } },
   };
 
-  // Варианты анимации текста
+  // Анимация текста
   const textVariants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.05, // Задержка между буквами
+        staggerChildren: 0.05,
       },
     },
   };
@@ -57,12 +62,9 @@ export default function PurchaseBtn({
     <>
       <Button
         onClick={() => {
-          if (discount) {
-            localStorage.setItem("selectedPlan", "base");
-            router.push("/payment");
-          } else {
-            onClick();
-          }
+          localStorage.setItem("selectedPlan", "base");
+          scrollToTariffs();
+          if (onClick) onClick();
         }}
         style={{ backgroundColor: btnBg, color: textColor }}
         className={`${buttonClasses} ${isBlicking ? "purchase-btn" : ""}`}
@@ -74,13 +76,12 @@ export default function PurchaseBtn({
           viewport={{ once: true, amount: 0.5 }}
           variants={textVariants}
         >
-          {/* Текст "печатается" по буквам, включая пробелы */}
           {Array.from(buttonVariant === "small" ? btnTextSmall : btnText).map(
             (char, index) => (
               <motion.span
                 key={index}
                 variants={letterVariants}
-                className={char === " " ? "inline-block w-1" : ""} // Добавляем пробелы
+                className={char === " " ? "inline-block w-1" : ""}
               >
                 {char === " " ? "\u00A0" : char}
               </motion.span>
@@ -102,16 +103,6 @@ export default function PurchaseBtn({
           </motion.div>
         )}
       </Button>
-      {/* {buttonVariant === "largeGradient" && (
-        <div className="flex items-center gap-4">
-          <p className="text-[#FF4A77] text-xl font-semibold leading-[1.84] lg:text-2xl lg:leading-[1.53]">
-            99 $
-          </p>
-          <p className="text-[#959595] font-semibold text-sm line-through leading-[2.63] md:text-base md:leading-[2.3]">
-            200$
-          </p>
-        </div>
-      )} */}
     </>
   );
 }

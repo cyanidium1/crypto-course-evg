@@ -27,14 +27,20 @@ export default function Tariffs() {
     item4: t("expert.point4"),
   });
 
+  const PAYMENT_LINKS = {
+    base: "https://buy.stripe.com/8wM8zH2Gp9aucOA28d", // Базовый
+    pro: "https://buy.stripe.com/9AQ6rz1Cl1I2dSE4gm", // Продвинутый
+    expert: "https://buy.stripe.com/aEUbLTep70DY5m814b", // Мастер
+  };
+
   const handleClick = (plan) => {
     localStorage.setItem("selectedPlan", plan);
-    router.push(`/payment`);
+    window.location.href = PAYMENT_LINKS[plan];
   };
 
   return (
     <Container>
-      <div className="px-10 l:px-20 pb-[76px] l:pb-[200px]">
+      <div id="tariffs" className="px-10 l:px-20 pb-[76px] l:pb-[200px]">
         <h2 className="mb-7 l:mb-[79px] uppercase font-bold text-2xl leading-[1.17] md:text-4xl md:leading-[1.17] l:text-5xl l:leading-[1.17] text-center mx-auto">
           {t("title")}
         </h2>

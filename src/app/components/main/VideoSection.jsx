@@ -78,7 +78,7 @@ export default function VideoSection() {
             <div className="w-full h-[550px] sm:h-[458px] rounded-[18px] overflow-hidden">
               <ReactPlayer
                 url="https://vimeo.com/1081165391/517584da6f"
-                light="/image/preview.jpg"
+                // light="/image/preview.jpg"
                 width="100%"
                 height="100%"
                 controls

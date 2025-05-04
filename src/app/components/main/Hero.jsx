@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 import Container from "../../../utils/Container";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import heroMob from "../../../../public/image/hero/hero-mob.jpg";
-import heroDesk from "../../../../public/image/hero/hero-desk.jpg";
+import heroMob from "../../../../public/image/hero/hero-mob.png";
+import heroDesk from "../../../../public/image/hero/hero-desk.png";
 import PurchaseBtn from "../main/common/PurchaseBtn";
 import {
   buttonVariants,

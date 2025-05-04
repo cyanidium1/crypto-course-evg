@@ -11,15 +11,15 @@ export const routes = [
   { name: "nav1", path: "#structure" },
   { name: "nav2", path: "#about" },
   { name: "nav3", path: "#advantages" },
-  { name: "nav4", path: "#reviews" },
+  // { name: "nav4", path: "#reviews" },
   { name: "nav5", path: "#faq" },
 ];
 
 // Ссылки, которые используются только в футере
 export const footerLinks = [
-  { name: "link1", path: "/legal-details" },
-  { name: "link2", path: "/individual-entrepreneur" },
-  { name: "link3", path: "/offer" },
+  // { name: "link1", path: "/legal-details" },
+  // { name: "link2", path: "/individual-entrepreneur" },
+  // { name: "link3", path: "/offer" },
   { name: "link4", path: "/privacy-policy" },
 ];
 
@@ -28,12 +28,12 @@ export const footerLinks = [
 export const socialLinks = [
   {
     name: "Instagram",
-    url: "https://www.instagram.com/grebinenko.official/",
+    url: "https://www.instagram.com/grebinenko_official/",
     icon: FaInstagram,
   },
   {
     name: "TikTok",
-    url: "https://www.tiktok.com/@grebinenko.official",
+    url: "https://www.tiktok.com/@grebinenko_official",
     icon: FaTiktok,
   },
   { name: "Telegram", url: "https://t.me/max_your_help", icon: FaTelegram },
@@ -48,12 +48,12 @@ export const socialLinks = [
 export const socLinksAbout = [
   {
     name: "Instagram",
-    url: "https://www.instagram.com/evgeniy.grebinenko/",
+    url: "https://www.instagram.com/evgeniy_grebinenko/",
     icon: FaInstagram,
   },
   {
     name: "TikTok",
-    url: "https://www.tiktok.com/@evgeniy.grebinenko",
+    url: "https://www.tiktok.com/@evgeniy_grebinenko",
     icon: FaTiktok,
   },
   {
@@ -76,12 +76,12 @@ export const socLinksAbout = [
 export const socLinksFooter = [
   {
     name: "Instagram",
-    url: "https://www.instagram.com/evgeniy.grebinenko/",
+    url: "https://www.instagram.com/evgeniy_grebinenko/",
     icon: FaInstagram,
   },
   {
     name: "TikTok",
-    url: "https://www.tiktok.com/@evgeniy.grebinenko",
+    url: "https://www.tiktok.com/@evgeniy_grebinenko",
     icon: FaTiktok,
   },
   {
