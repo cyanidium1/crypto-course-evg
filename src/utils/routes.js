@@ -28,17 +28,21 @@ export const footerLinks = [
 export const socialLinks = [
   {
     name: "Instagram",
-    url: "https://www.instagram.com/aleko.so/",
+    url: "https://www.instagram.com/grebinenko.official/",
     icon: FaInstagram,
   },
-  { name: "TikTok", url: "https://www.tiktok.com/@aleko.so", icon: FaTiktok },
-  { name: "Telegram", url: "https://www.t.me/aleko_ua", icon: FaTelegram },
+  {
+    name: "TikTok",
+    url: "https://www.tiktok.com/@grebinenko.official",
+    icon: FaTiktok,
+  },
+  { name: "Telegram", url: "https://t.me/max_your_help", icon: FaTelegram },
   {
     name: "YouTube",
-    url: "https://www.youtube.com/@aleko_so/shorts",
+    url: "https://www.youtube.com/@grebinenko",
     icon: FaYoutube,
   },
-  { name: "Email", url: "mailto:aleko.you@gmail.com", icon: FaEnvelope },
+  { name: "Email", url: "mailto:hrebinenko@icloud.com", icon: FaEnvelope },
 ];
 
 export const socLinksAbout = [
@@ -59,12 +63,12 @@ export const socLinksAbout = [
   },
   {
     name: "YouTube",
-    url: "https://www.youtube.com/@evgeniy_grebinenko/shorts",
+    url: "https://www.youtube.com/@grebinenko",
     icon: FaYoutube,
   },
   {
     name: "Email",
-    url: "mailto:evgeniy.grebinenko@gmail.com",
+    url: "mailto:hrebinenko@icloud.com",
     icon: FaEnvelope,
   },
 ];
@@ -82,7 +86,7 @@ export const socLinksFooter = [
   },
   {
     name: "YouTube",
-    url: "https://www.youtube.com/@evgeniy_grebinenko/shorts",
+    url: "https://www.youtube.com/@grebinenko",
     icon: FaYoutube,
   },
 ];

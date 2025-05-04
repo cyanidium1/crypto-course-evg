@@ -7,7 +7,7 @@ export const useModules = () => {
     module1: {
       title: t("module1.title"),
       num: t("module1.num"),
-      free: false,
+      free: true,
       tabs: [
         {
           name: t("module1.tabs.tab1.name"),
@@ -147,7 +147,7 @@ export const useModules = () => {
     module7: {
       title: t("module7.title"),
       num: t("module7.num"),
-      free: true,
+      free: false,
       tabs: [
         {
           name: t("module7.tabs.tab1.name"),

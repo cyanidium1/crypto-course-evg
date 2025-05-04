@@ -27,7 +27,7 @@
       "tabs": {
         "tab1": {
           "name": "Basics of any registration",
-          "url": ""
+          "url": "https://youtu.be/K-I0M5IbK_I"
         },
         "tab2": {
           "name": "Verification",
@@ -266,6 +266,7 @@
     "item2": "videos",
     "item3": "working methods"
   },
+  "Free": { "text": "Free lesson" },
   "About": {
     "title": "Speaker",
     "subtitle": "My name is ",

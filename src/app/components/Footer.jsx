@@ -15,7 +15,7 @@ export default function Footer() {
             href={"/"}
             className="font-bold text-inherit font-sansation uppercase text-[20px] leading-[1.19]"
           >
-            Aleko<span className="gradient-text"> Sokurashvili</span>
+            Crypto<span className="gradient-text"> Boost</span>
           </Link>
           {/* соц мережі */}
           <SocLinks socialLinks={socialLinks} />

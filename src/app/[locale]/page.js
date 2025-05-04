@@ -25,7 +25,7 @@ export default function Home() {
       <TargetAudience />
       <CourseStructure />
       <Tariffs />
-      <HowCreateContent />
+      {/* <HowCreateContent /> */}
       <LearningIncludes />
       <About />
       <Pros />
