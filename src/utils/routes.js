@@ -48,17 +48,17 @@ export const socialLinks = [
 export const socLinksAbout = [
   {
     name: "Instagram",
-    url: "https://www.instagram.com/evgeniy_grebinenko/",
+    url: "https://www.instagram.com/grebinenko_official/",
     icon: FaInstagram,
   },
   {
     name: "TikTok",
-    url: "https://www.tiktok.com/@evgeniy_grebinenko",
+    url: "https://www.tiktok.com/@grebinenko_official",
     icon: FaTiktok,
   },
   {
     name: "Telegram",
-    url: "https://t.me/evgeniy_grebinenko",
+    url: "https://t.me/max_your_help",
     icon: FaTelegram,
   },
   {
@@ -76,12 +76,12 @@ export const socLinksAbout = [
 export const socLinksFooter = [
   {
     name: "Instagram",
-    url: "https://www.instagram.com/evgeniy_grebinenko/",
+    url: "https://www.instagram.com/grebinenko_official/",
     icon: FaInstagram,
   },
   {
     name: "TikTok",
-    url: "https://www.tiktok.com/@evgeniy_grebinenko",
+    url: "https://www.tiktok.com/@grebinenko_official",
     icon: FaTiktok,
   },
   {

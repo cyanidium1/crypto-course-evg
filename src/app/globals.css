@@ -356,9 +356,9 @@ a {
   background-repeat: no-repeat;
   background-position: center top;
 
-  @media (min-width: 690px) {
+  /* @media (min-width: 690px) {
     background-image: url(../../public/image/how-create/bg.png);
-  }
+  } */
 
   @media (min-width: 768px) {
     height: 488px;
