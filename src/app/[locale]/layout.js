@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import "../globals.css";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
+import Script from "next/script";
 
 export const metadata = {
   title: "Крипта с нуля | Евгений Гребиненко",
@@ -52,6 +53,19 @@ export default async function RootLayout({ children, params }) {
       className={`${raleway.className} ${sansation.className} ${manrope.className}`}
     >
       <body className="bg-background text-textColorWhite">
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-F85D9Q0QN5"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-F85D9Q0QN5');
+          `}
+        </Script>
+
         <NextIntlClientProvider messages={messages}>
           <Header />
           <main>{children}</main>
