@@ -28,9 +28,9 @@ export default function Tariffs() {
   });
 
   const PAYMENT_LINKS = {
-    base: "https://buy.stripe.com/8wM8zH2Gp9aucOA28d", // Базовый
-    pro: "https://buy.stripe.com/9AQ6rz1Cl1I2dSE4gm", // Продвинутый
-    expert: "https://buy.stripe.com/aEUbLTep70DY5m814b", // Мастер
+    base: "https://buy.stripe.com/28og296WF2M68yk6ow", // Базовый
+    pro: "https://buy.stripe.com/9AQ17fcgZ1I229W009", // PRO
+    expert: "https://buy.stripe.com/4gw6rzdl3euO01O3cm", // Мастер
   };
 
   const handleClick = (plan) => {
