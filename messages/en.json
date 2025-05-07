@@ -168,14 +168,14 @@
       "title": "Basic",
       "point1": "6 blocks",
       "point2": "The most useful crypto guide for beginners",
-      "price": "10$"
+      "price": "14$"
     },
     "pro": {
       "title": "Pro",
       "point1": "6 blocks +",
       "point2": "block \"earning on crypto\"",
       "point3": "The most useful crypto guide for beginners",
-      "price": "20$"
+      "price": "19$"
     },
     "expert": {
       "title": "Expert",
@@ -183,7 +183,7 @@
       "point2": "block \"earning on crypto\"",
       "point3": "The most useful crypto guide for beginners",
       "point4": "Top 5 investment directions",
-      "price": "30$"
+      "price": "29$"
     },
     "button": "Buy"
   },
