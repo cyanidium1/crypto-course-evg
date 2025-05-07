@@ -86,6 +86,7 @@ export default function Tariffs() {
               buttonVariant="small"
               btnBg="#fff"
               textColor="#0C0117"
+              customId="buy1"
             />
           </li>
 
@@ -138,6 +139,7 @@ export default function Tariffs() {
               buttonVariant="small"
               btnBg="#0C0117"
               textColor="#fff"
+              customId="buy2"
               isBlicking={true}
             />
           </li>
@@ -181,6 +183,7 @@ export default function Tariffs() {
                 handleClick("expert");
               }}
               discount={false}
+              customId="buy3"
               buttonVariant="small"
             />
           </li>

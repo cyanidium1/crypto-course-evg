@@ -10,6 +10,7 @@ export default function PurchaseBtn({
   discount = true,
   isBlicking = false,
   onClick,
+  customId = "none",
 }) {
   const t = useTranslations("ModalBtn");
   const f = useTranslations("Tariffs");
@@ -61,6 +62,7 @@ export default function PurchaseBtn({
   return (
     <>
       <Button
+        id={customId}
         onClick={() => {
           localStorage.setItem("selectedPlan", "base");
           scrollToTariffs();
