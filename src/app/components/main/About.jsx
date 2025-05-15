@@ -36,9 +36,10 @@ export default function About() {
             <Image
               src={img}
               alt="Евгений Гребиненко - крипто-эксперт"
-              sizes="100vh"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 550px"
               className="w-full h-full object-cover rounded-[18px] lg:object-[-4px,-105px] lg:h-auto lg:object-unset"
-              quality={100}
+              quality={85}
+              priority
             />
           </div>
 
