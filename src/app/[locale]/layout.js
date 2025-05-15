@@ -28,6 +28,7 @@ const raleway = Raleway({
   weight: ["400", "600", "700"],
   display: "swap",
   preload: true,
+  fallback: ["system-ui", "arial"],
 });
 
 const manrope = Manrope({
@@ -35,6 +36,7 @@ const manrope = Manrope({
   weight: ["400", "600", "700"],
   display: "swap",
   preload: true,
+  fallback: ["system-ui", "arial"],
 });
 
 const sansation = localFont({
@@ -47,6 +49,7 @@ const sansation = localFont({
   ],
   display: "swap",
   preload: true,
+  fallback: ["system-ui", "arial"],
 });
 
 export default async function RootLayout({ children, params }) {
@@ -59,7 +62,7 @@ export default async function RootLayout({ children, params }) {
       className={`${raleway.className} ${sansation.className} ${manrope.className}`}
     >
       <head>
-        <Script id="gtm-head" strategy="worker">
+        <Script id="gtm-head" strategy="lazyOnload">
           {`
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -81,9 +84,9 @@ export default async function RootLayout({ children, params }) {
 
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-F85D9Q0QN5"
-          strategy="worker"
+          strategy="lazyOnload"
         />
-        <Script id="google-analytics" strategy="worker">
+        <Script id="google-analytics" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
