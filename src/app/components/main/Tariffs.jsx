@@ -28,9 +28,9 @@ export default function Tariffs() {
   });
 
   const PAYMENT_LINKS = {
-    base: "https://buy.stripe.com/28og296WF2M68yk6ow", // Базовый
-    pro: "https://buy.stripe.com/9AQ17fcgZ1I229W009", // PRO
-    expert: "https://buy.stripe.com/4gw6rzdl3euO01O3cm", // Мастер
+    base: "https://secure.wayforpay.com/payment/cryptoboost_basic", // Базовый
+    pro: "https://secure.wayforpay.com/payment/cryptoboost_pro", // PRO
+    expert: "https://secure.wayforpay.com/payment/cryptoboost_max", // Мастер
   };
 
   const handleClick = (plan) => {
