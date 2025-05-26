@@ -17,6 +17,14 @@ import { PRICES } from "../../constants/prices";
 
 export default function Hero() {
   const t = useTranslations("Hero");
+  const now = new Date();
+
+  const day = String(now.getDate()).padStart(2, "0");
+  const month = String(now.getMonth() + 1).padStart(2, "0"); // Месяцы с 0 по 11
+  const year = now.getFullYear();
+
+  const formattedDate = `${day}.${month}.${year}`;
+
   return (
     <Container>
       <div className="px-10 lg:pl-20 lg:pr-[60px] pt-6 lg:pt-10 pb-[76px] lg:pb-[200px] overflow-x-clip relative ">
@@ -67,8 +75,15 @@ export default function Hero() {
                 variants={subtitleAnimation}
                 initial="hidden"
                 animate="visible"
+                className="md:pl-20 l:pl-28"
               >
-                <p className="text-center xs:max-w-[80%] md:max-w-[96%] mx-auto md:mx-0 text-sm md:text-start md:pl-20 l:pl-28 lg:text-[18px] leading-[1.15]">
+                <div className="flex justify-center items-center gap-1 mb-4 md:justify-start">
+                  <p className="gradient-secondary-text font-bold text-xl">
+                    {t("start")}
+                  </p>
+                  <p>{formattedDate}</p>
+                </div>
+                <p className="text-center xs:max-w-[80%] md:max-w-[96%] mx-auto md:mx-0 text-sm md:text-start lg:text-[18px] leading-[1.15]">
                   {t("description")}
                 </p>
               </motion.div>
