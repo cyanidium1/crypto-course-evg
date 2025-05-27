@@ -7,6 +7,7 @@ import Image from "next/image";
 import heroMob from "../../../../public/image/hero/hero-mob.webp";
 import heroDesk from "../../../../public/image/hero/hero-desk.webp";
 import PurchaseBtn from "../main/common/PurchaseBtn";
+import TimerBlockHero from "../main/common/TimerBlockHero";
 import {
   buttonVariants,
   imageAnimation,
@@ -51,13 +52,13 @@ export default function Hero() {
               alt="Евгений Гребиненко - крипто-эксперт"
               sizes="100vh"
               priority
-              className="w-full h-auto hidden md:flex rounded-[18px]"
+              className="w-full h-[358px] object-cover hidden md:flex rounded-[18px]"
               quality={100}
             />
           </motion.div>
 
           <div>
-            <div className="absolute flex flex-col gap-8 md:flex-col-reverse md:gap-[42px] top-[77.5%] md:top-[10%] md:left-[96%] l:left-[89%] lg:top-[18%]">
+            <div className="absolute flex flex-col gap-8 md:flex-col-reverse md:gap-[42px] top-[77.5%] md:top-[10%] md:left-[96%] l:left-[89%] lg:top-0">
               <motion.div
                 variants={titleAnimation}
                 initial="hidden"
@@ -75,9 +76,9 @@ export default function Hero() {
                 variants={subtitleAnimation}
                 initial="hidden"
                 animate="visible"
-                className="md:pl-20 l:pl-28"
+                className="mb-[54px] md:pl-20 l:pl-28"
               >
-                <div className="flex justify-center items-center gap-1 mb-4 md:justify-start">
+                <div className="flex justify-center items-center gap-1 mb-4 md:mb-9 md:justify-start">
                   <p className="gradient-secondary-text font-bold text-xl">
                     {t("start")}
                   </p>
@@ -95,8 +96,9 @@ export default function Hero() {
           variants={buttonVariants}
           initial="hidden"
           animate="visible"
-          className="mt-[276px] xs:mt-[260px] sm:mt-[130px] md:mt-[42px] flex flex-col items-center md:items-start md:max-w-[50%] lg:w-[46.5%]"
+          className="mt-[276px] xs:mt-[260px] sm:mt-[130px] md:mt-[14px] flex flex-col items-center md:items-start md:max-w-[50%] lg:w-[46.5%]"
         >
+          <TimerBlockHero text={t("timer")} />
           <PurchaseBtn buttonVariant="large" />
           <div className="flex items-center gap-[10px] lg:gap-4 mt-3 justify-center w-full">
             <p className="text-[#FF4A77] text-xl font-semibold leading-[1.08] lg:text-2xl lg:leading-normal">
