@@ -13,11 +13,13 @@ import Pros from "../components/main/Pros";
 // import Reviews from "../components/main/Reviews";
 import Faq from "../components/main/Faq/Faq";
 import PurchaseSection from "../components/main/PurchaseSection/PurchaseSection";
+import StressMinds from "../components/main/StressMinds";
 
 export default function Home() {
   return (
     <>
       <Hero />
+      <StressMinds />
       <VideoSection />
       <IfYouWantSection />
       <CourseBenefits />
