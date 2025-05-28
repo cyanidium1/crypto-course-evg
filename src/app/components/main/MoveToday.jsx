@@ -3,7 +3,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Container from "../../../utils/Container";
 import { motion } from "framer-motion";
-import gradientCircle from "../../../../.next/static/media/gradient-circle.2c3952b2.svg";
+import gradientCircle from "../../../../public/icons/gradient-circle.svg";
 
 const MoveToday = () => {
   const t = useTranslations("MoveToday");
