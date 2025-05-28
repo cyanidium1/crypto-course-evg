@@ -32,7 +32,7 @@ export default function Home() {
       <IfYouWantSection />
       <CourseBenefits />
       <CourseForYouIf />
-      <TargetAudience />
+      {/* <TargetAudience /> */}
       <CourseStructure />
       <Tariffs />
       {/* <HowCreateContent /> */}

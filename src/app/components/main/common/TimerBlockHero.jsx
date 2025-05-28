@@ -50,8 +50,8 @@ export default function TimerBlockHero() {
 
   return (
     <div className="h-[164px] mx-auto mt-[54px] mb-5 md:h-[146px] md:mt-0 rounded-[18px] py-[26px] md:py-[35px] px-[22px] md:pl-5 md:pr-[24px] text-center md:max-w-[530px] border-[1.5px] md:border-[1.5px] border-white/50 md:flex md:mb-[15px] md:gap-[22px]">
-      <div className="md:max-w-[294px]">
-        <h3 className="text-xl leading-[1.17] l:leading-[1.17] uppercase font-bold text-white mb-[18px] md:mb-3">
+      <div className="max-w-[280px] md:max-w-[334px] lg:max-w-[530px]">
+        <h3 className="text-base xs:text-xl leading-[1.17] l:leading-[1.17] whitespace-nowrap uppercase font-bold text-white mb-[18px] md:mb-3">
           {t("timer")}
         </h3>
         <div className="flex flex-col md:flex-row items-center gap-6 md:gap-8">
