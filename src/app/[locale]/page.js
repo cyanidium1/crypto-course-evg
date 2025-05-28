@@ -16,6 +16,7 @@ import PurchaseSection from "../components/main/PurchaseSection/PurchaseSection"
 import StressMinds from "../components/main/StressMinds";
 import InviteBlock from "../components/main/InviteBlock";
 import StoryAboutBoy from "../components/main/StoryAboutBoy";
+import Investing from "../components/main/Investing";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <StressMinds />
       <InviteBlock />
       <StoryAboutBoy />
+      <Investing />
       <VideoSection />
       <IfYouWantSection />
       <CourseBenefits />
