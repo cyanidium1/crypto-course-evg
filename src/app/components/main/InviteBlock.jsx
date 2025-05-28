@@ -44,12 +44,12 @@ const InviteBlock = () => {
           viewport={{ once: true, amount: 0.1 }}
           className="relative z-10"
         >
-          <div className="text-center mb-[63px] w-[273px] mx-auto lg:w-[1120px] lg:mb-[80px]">
+          <div className="text-center mb-[63px] w-[273px] mx-auto md:w-auto lg:mb-[80px]">
             <h2 className="text-2xl font-bold md:text-5xl">{t("title")}</h2>
             <p className="text-xl font-normal md:text-4xl">{t("subtitle")}</p>
           </div>
 
-          <div className="flex flex-col gap-5 items-center last:gap-0 md:flex-row md:justify-center">
+          <div className="flex flex-col gap-5 items-center last:gap-0 lg:flex-row lg:justify-center">
             <motion.div variants={cardVariants} className="relative">
               <Image
                 src={frameMob}
@@ -65,7 +65,7 @@ const InviteBlock = () => {
                 <h3 className="text-xl font-bold mb-5 text-white uppercase">
                   {t("card1.title")}
                 </h3>
-                <p className="text-white/90 text-sm w-[266px] md:text-base lg:w-[308px]">
+                <p className="text-white/90 text-sm w-[266px] lg:text-base lg:w-[308px]">
                   {t("card1.text")}
                 </p>
               </div>
@@ -86,7 +86,7 @@ const InviteBlock = () => {
                 <h3 className="text-xl font-bold mb-5 text-white uppercase">
                   {t("card2.title")}
                 </h3>
-                <p className="text-white/90 text-sm w-[266px] md:text-base lg:w-[308px]">
+                <p className="text-white/90 text-sm w-[266px] lg:text-base lg:w-[308px]">
                   {t("card2.text")}
                 </p>
               </div>
@@ -107,7 +107,7 @@ const InviteBlock = () => {
                 <h3 className="text-xl font-bold mb-5 text-white uppercase">
                   {t("card3.title")}
                 </h3>
-                <p className="text-white/90 text-sm w-[266px] md:text-base lg:w-[308px]">
+                <p className="text-white/90 text-sm w-[266px] lg:text-base lg:w-[308px]">
                   {t("card3.text")}
                 </p>
               </div>
