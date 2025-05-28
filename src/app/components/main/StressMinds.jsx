@@ -13,7 +13,7 @@ const StressMinds = () => {
   const t = useTranslations("StressMinds");
 
   return (
-    <section className="container mx-auto px-5 pb-[76px] md:pb-[100px]">
+    <section className="container mx-auto px-5 pb-[100px] md:pb-[200px]">
       <h2 className="text-2xl md:text-4xl font-bold text-center mb-10 md:mb-20">
         {t("title")}
       </h2>

@@ -36,7 +36,7 @@ const InviteBlock = () => {
 
   return (
     <Container>
-      <div className="px-10 lg:px-20 pb-[76px] lg:pb-[100px] relative">
+      <div className="px-10 lg:px-20 pb-[100px] lg:pb-[200px] relative">
         <motion.div
           variants={containerVariants}
           initial="hidden"
