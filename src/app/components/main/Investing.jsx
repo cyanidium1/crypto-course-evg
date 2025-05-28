@@ -34,7 +34,7 @@ const Investing = () => {
         whileInView="visible"
         viewport={{ once: true, amount: 0.1 }}
       >
-        <div className="relative max-w-[423px] mx-auto lg:max-w-[1120px] lg:flex lg:flex-col">
+        <div className="relative max-w-[280px] mx-auto lg:max-w-[1120px] lg:flex lg:flex-col">
           <div className="w-[313px] mx-auto lg:w-[679px] mb-[279px] lg:mb-[28px] lg:mx-0">
             <h2 className="text-2xl w-[277px] font-bold lg:text-left lg:text-5xl lg:w-[536px] uppercase">
               {t("title")}
@@ -49,14 +49,14 @@ const Investing = () => {
             <Image
               src={investingShadowMob}
               alt="Shadow"
-              className="absolute right-0 z-20 bottom-[-60px] lg:hidden"
+              className="absolute right-[-35px] z-20 bottom-[70px] lg:hidden"
               width={393}
               height={518}
             />
             <Image
               src={investingImageMob}
               alt="Investing"
-              className="absolute right-[30px] top-[125px] lg:hidden"
+              className="absolute right-[-35px] top-[125px] lg:hidden"
               width={313}
               height={313}
             />

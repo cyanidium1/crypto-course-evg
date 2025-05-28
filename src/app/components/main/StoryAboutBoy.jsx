@@ -29,10 +29,10 @@ const StoryAboutBoy = () => {
         whileInView="visible"
         viewport={{ once: true, amount: 0.1 }}
       >
-        <div className="w-[313px] mx-auto mb-10 lg:flex lg:w-auto lg:mb-[89px]">
+        <div className="w-auto xs:w-[327px] mx-auto mb-10 lg:flex lg:w-auto lg:mb-[89px]">
           <h2 className="text-2xl text-center lg:text-5xl font-bold mb-[32px] uppercase lg:w-[679px] lg:mr-[128px] lg:mb-0 lg:text-left">
             {t("title")}{" "}
-            <span className="gradient-secondary-text uppercase">
+            <span className="gradient-secondary-text uppercase whitespace-nowrap">
               {t("highlightedText")}
             </span>
           </h2>
