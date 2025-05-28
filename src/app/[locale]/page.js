@@ -17,6 +17,7 @@ import StressMinds from "../components/main/StressMinds";
 import InviteBlock from "../components/main/InviteBlock";
 import StoryAboutBoy from "../components/main/StoryAboutBoy";
 import Investing from "../components/main/Investing";
+import MoveToday from "../components/main/MoveToday";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <InviteBlock />
       <StoryAboutBoy />
       <Investing />
+      <MoveToday />
       <VideoSection />
       <IfYouWantSection />
       <CourseBenefits />
