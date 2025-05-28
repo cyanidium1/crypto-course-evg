@@ -49,7 +49,7 @@ export default function TimerBlockHero() {
   }, []);
 
   return (
-    <div className="mx-auto mt-[54px] mb-5 md:mt-0 rounded-[18px] py-[26px] md:py-[35px] px-[22px] md:pl-5 md:pr-[24px] text-center md:max-w-[534px] border-[1.5px] md:border-[1.5px] border-white/50 md:flex md:mb-[15px] md:gap-[22px]">
+    <div className="mx-auto mt-[54px] mb-5 md:mt-0 rounded-[18px] py-[26px] md:py-[35px] px-[22px] md:pl-5 md:pr-[24px] text-center md:max-w-[530px] border-[1.5px] md:border-[1.5px] border-white/50 md:flex md:mb-[15px] md:gap-[22px]">
       <div className="md:max-w-[294px]">
         <h3 className="text-xl leading-[1.17] l:leading-[1.17] uppercase font-bold text-white mb-[18px] md:mb-3">
           {t("timer")}
@@ -70,7 +70,7 @@ export default function TimerBlockHero() {
           </div>
         </div>
       </div>
-      <div className="hidden md:block gradient-secondary-text text-base l:text-base font-semibold max-w-[168px] text-left shrink-0">
+      <div className="hidden lg:block gradient-secondary-text text-base l:text-base font-semibold w-[168px] text-left shrink-0">
         <span className="font-bold">PDF</span> "{t("pdfText")}"
       </div>
     </div>
