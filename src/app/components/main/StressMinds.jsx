@@ -41,7 +41,7 @@ const StressMinds = () => {
             <h3 className="text-xl font-bold mb-5 uppercase text-white">
               {t("card1Title")}
             </h3>
-            <p className="text-sm md:text-base font-normal text-gray-200">
+            <p className="text-sm lg:text-base font-normal text-gray-200">
               {t("card1Text")}
             </p>
           </div>
@@ -69,7 +69,7 @@ const StressMinds = () => {
             <h3 className="text-xl  font-bold mb-5 uppercase text-white">
               {t("card2Title")}
             </h3>
-            <p className="text-sm md:text-base font-normal text-gray-200">
+            <p className="text-sm lg:text-base font-normal text-gray-200">
               {t("card2Text")}
             </p>
           </div>
@@ -105,7 +105,7 @@ const StressMinds = () => {
             <h3 className="text-xl  font-bold mb-5 uppercase text-white">
               {t("card3Title")}
             </h3>
-            <p className="text-sm md:text-base font-normal text-gray-200">
+            <p className="text-sm lg:text-base font-normal text-gray-200">
               {t("card3Text")}
             </p>
           </div>
