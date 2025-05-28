@@ -34,7 +34,7 @@ const MoveToday = () => {
   return (
     <Container>
       <motion.div
-        className="px-10 lg:px-20 pb-[76px] lg:pb-[200px]"
+        className="px-10 lg:px-20 pb-[100px] lg:pb-[200px]"
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
@@ -43,7 +43,7 @@ const MoveToday = () => {
         <h2 className="text-2xl lg:text-5xl font-bold text-center mb-10 uppercase lg:mb-[50px]">
           {t("title")}
         </h2>
-        <div className="flex flex-wrap justify-center gap-5 lg:w-[1127px] lg:mx-auto">
+        <div className="flex flex-wrap justify-center gap-5 w-auto xl:w-[1127px] lg:mx-auto">
           <motion.div
             variants={cardVariants}
             className="gradient-to-right p-[1px] rounded-xl w-[313px] lg:w-auto lg:h-[113px]"
