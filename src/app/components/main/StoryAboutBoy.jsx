@@ -54,7 +54,7 @@ const StoryAboutBoy = () => {
             className="mx-auto hidden lg:block"
             height={442}
           />
-          <div className="absolute inset-0 top-0 left-0 bg-[#0C0117] opacity-30 lg:opacity-60" />
+          <div className="absolute inset-0 top-0 left-0 bg-[#0C0117] opacity-40 lg:opacity-60" />
         </div>
       </motion.div>
     </Container>

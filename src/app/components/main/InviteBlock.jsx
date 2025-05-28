@@ -49,7 +49,7 @@ const InviteBlock = () => {
             <p className="text-xl font-normal md:text-4xl">{t("subtitle")}</p>
           </div>
 
-          <div className="flex flex-col gap-5 items-center last:gap-0 lg:flex-row lg:justify-center">
+          <div className="flex flex-col gap-5 items-center last:gap-0 l:flex-row l:justify-center">
             <motion.div variants={cardVariants} className="relative">
               <Image
                 src={frameMob}
