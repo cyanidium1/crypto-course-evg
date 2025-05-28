@@ -14,12 +14,14 @@ import Pros from "../components/main/Pros";
 import Faq from "../components/main/Faq/Faq";
 import PurchaseSection from "../components/main/PurchaseSection/PurchaseSection";
 import StressMinds from "../components/main/StressMinds";
+import InviteBlock from "../components/main/InviteBlock";
 
 export default function Home() {
   return (
     <>
       <Hero />
       <StressMinds />
+      <InviteBlock />
       <VideoSection />
       <IfYouWantSection />
       <CourseBenefits />
