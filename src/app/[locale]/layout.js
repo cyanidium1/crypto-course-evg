@@ -6,6 +6,7 @@ import "../globals.css";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import Script from "next/script";
+import TikTokPixel from "../components/common/TikTokPixel";
 
 export const metadata = {
   title: "Крипта с нуля | Евгений Гребиненко",
@@ -94,6 +95,8 @@ export default async function RootLayout({ children, params }) {
             gtag('config', 'G-F85D9Q0QN5');
           `}
         </Script>
+
+        <TikTokPixel />
 
         <NextIntlClientProvider messages={messages}>
           <Header />
