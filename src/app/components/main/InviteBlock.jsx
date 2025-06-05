@@ -62,7 +62,7 @@ const InviteBlock = () => {
                 className="hidden lg:block"
               />
               <div className="absolute inset-0 transparent px-[26px] py-[15px] xs:p-[26px] flex flex-col md:py-[18px] md:px-[26px]">
-                <h3 className="text-base mb-[10px] lg:text-xl font-bold xs:mb-5 text-white uppercase">
+                <h3 className="text-base mb-[10px] lg:text-xl font-bold xs:mb-5 text-white">
                   {t("card1.title")}
                 </h3>
                 <p className="text-white/90 text-sm xs:w-[266px] lg:text-base lg:w-[308px]">

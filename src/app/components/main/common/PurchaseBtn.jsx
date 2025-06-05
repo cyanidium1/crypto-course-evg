@@ -100,7 +100,7 @@ export default function PurchaseBtn({
             variants={circleVariants}
           >
             <p className="text-textColorWhite text-xl font-semibold leading-tight lg:text-2xl lg:leading-normal">
-              -50%
+              -80%
             </p>
           </motion.div>
         )}

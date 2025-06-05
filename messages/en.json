@@ -26,7 +26,7 @@
       "num": "Module: 1",
       "tabs": {
         "tab1": {
-          "name": "Basics of any registration",
+          "name": "Basic exchange mechanics",
           "url": "https://youtu.be/K-I0M5IbK_I"
         },
         "tab2": {
@@ -36,6 +36,10 @@
         "tab3": {
           "name": "Nuances",
           "url": ""
+        },
+        "tab4": {
+          "name": "Account management",
+          "url": ""
         }
       }
     },
@@ -44,11 +48,11 @@
       "num": "Module: 2",
       "tabs": {
         "tab1": {
-          "name": "Top-up without fees",
+          "name": "How not to lose",
           "url": ""
         },
         "tab2": {
-          "name": "Best methods",
+          "name": "Earn more",
           "url": ""
         },
         "tab3": {
@@ -58,25 +62,29 @@
       }
     },
     "module3": {
-      "title": "Buying Cryptocurrency",
+      "title": "Trading strategies",
       "num": "Module: 3",
       "tabs": {
         "tab1": {
-          "name": "Step by step",
+          "name": "Buying and selling",
           "url": ""
         },
         "tab2": {
-          "name": "Different methods",
+          "name": "Exchange reviews, including DEX",
           "url": ""
         },
         "tab3": {
-          "name": "Understanding charts",
+          "name": "Error analysis",
+          "url": ""
+        },
+        "tab4": {
+          "name": "Profitable investments",
           "url": ""
         }
       }
     },
     "module4": {
-      "title": "Understanding Crypto",
+      "title": "Basic crypto mechanics",
       "num": "Module: 4",
       "tabs": {
         "tab1": {
@@ -88,21 +96,25 @@
           "url": ""
         },
         "tab3": {
-          "name": "Key terms",
+          "name": "Investor's toolkit",
           "url": ""
         }
       }
     },
     "module5": {
-      "title": "Maximum Security",
+      "title": "Maximum security",
       "num": "Module: 5",
       "tabs": {
         "tab1": {
-          "name": "Protection settings",
+          "name": "Security settings",
           "url": ""
         },
         "tab2": {
           "name": "Crypto hygiene rules",
+          "url": ""
+        },
+        "tab3": {
+          "name": "Storage methods",
           "url": ""
         }
       }
@@ -126,7 +138,7 @@
       }
     },
     "module7": {
-      "title": "Earning with Crypto",
+      "title": "Earning on crypto",
       "num": "Module: 7",
       "tabs": {
         "tab1": {
@@ -134,21 +146,21 @@
           "url": ""
         },
         "tab2": {
-          "name": "Beyond trading",
+          "name": "Active trading analysis",
           "url": ""
         },
         "tab3": {
-          "name": "Principles",
+          "name": "Fully passive income",
           "url": ""
         }
       }
     },
     "module8": {
-      "title": "Investment Opportunities",
+      "title": "What to invest in",
       "num": "Module: 8",
       "tabs": {
         "tab1": {
-          "name": "2025 trends",
+          "name": "Current trends of 2025",
           "url": ""
         },
         "tab2": {
@@ -157,6 +169,24 @@
         },
         "tab3": {
           "name": "Action plan",
+          "url": ""
+        }
+      }
+    },
+    "module9": {
+      "title": "Trader Psychology *BONUS",
+      "num": "Module: 9",
+      "tabs": {
+        "tab1": {
+          "name": "Analyzing prices",
+          "url": ""
+        },
+        "tab2": {
+          "name": "Stress-free earnings",
+          "url": ""
+        },
+        "tab3": {
+          "name": "How to increase profits",
           "url": ""
         }
       }
@@ -172,9 +202,12 @@
     },
     "pro": {
       "title": "Pro",
-      "point1": "6 blocks +",
-      "point2": "block \"earning on crypto\"",
-      "point3": "The most useful crypto guide for beginners",
+      "point1": "20 lessons",
+      "point2": "9 blocks",
+      "point3": "block \"earning on crypto\"",
+      "point4": "The most useful crypto guide for beginners",
+      "point5": "bonus lesson",
+      "point6": "Which coins to buy right now to earn?",
       "price": "19$"
     },
     "expert": {

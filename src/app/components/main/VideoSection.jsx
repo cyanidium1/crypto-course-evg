@@ -50,12 +50,12 @@ export default function VideoSection() {
   const items = Object.values({
     item1: {
       text: t("item1"),
-      num: "8",
+      num: "9",
       isSpecial: true,
     },
     item2: {
       text: t("item2"),
-      num: "12",
+      num: "20",
       isSpecial: true,
     },
     item3: {

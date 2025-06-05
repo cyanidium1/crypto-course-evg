@@ -9,28 +9,17 @@ export default function Tariffs() {
   const router = useRouter();
   const t = useTranslations("Tariffs");
 
-  const basePoints = Object.values({
-    item1: t("base.point1"),
-    item2: t("base.point2"),
-  });
-
   const proPoints = Object.values({
     item1: t("pro.point1"),
     item2: t("pro.point2"),
     item3: t("pro.point3"),
-  });
-
-  const expertPoints = Object.values({
-    item1: t("expert.point1"),
-    item2: t("expert.point2"),
-    item3: t("expert.point3"),
-    item4: t("expert.point4"),
+    item4: t("pro.point4"),
+    item5: t("pro.point5"),
+    item6: t("pro.point6"),
   });
 
   const PAYMENT_LINKS = {
-    base: "https://secure.wayforpay.com/payment/cryptoboost_basic", // Базовый
-    pro: "https://secure.wayforpay.com/payment/cryptoboost_pro", // PRO
-    expert: "https://secure.wayforpay.com/payment/cryptoboost_max", // Мастер
+    pro: "https://secure.wayforpay.com/payment/enter.cryptoboost", // PRO
   };
 
   const handleClick = (plan) => {
@@ -46,60 +35,14 @@ export default function Tariffs() {
         </h2>
 
         <ul className="flex flex-col md:flex-row md:flex-wrap justify-center items-center md:gap-[26px] l:gap-5">
-          <li className="p-8 px-6 lg:px-9 lg:pt-9 rounded-[28px] w-[313px] h-[490px] l:h-[500px] lg:w-[360px] shadow-[4px_6px_10px_4px_rgba(167,93,243,0.20)_inset] relative overflow-hidden mb-[47px] md:mb-0 flex flex-col justify-between">
-            {/* gradient */}
-            <div className="w-[184.357px] h-[173.591px] radial-violet-gradient absolute top-[-67px] right-[-162px] " />
-            <div className="w-[184.357px] h-[173.591px] radial-blue-gradient absolute bottom-[-133px]  left-[-46px]" />
-            {/* /gradient */}
-
-            <div>
-              <h3 className="text-textColorWhite uppercase font-semibold text-base leading-[1.17] lg:text-xl lg:leading-[1.17] mb-[29px] lg:mb-[33px]">
-                {t("base.title")}
-              </h3>
-
-              <div className="flex items-end gap-[22px] mb-[29px]">
-                <p className="font-manrope text-[64px] font-bold uppercase leading-[1.17] lg:text-[74px] lg:leading-[1.17]">
-                  {PRICES.BASE.SALE}
-                </p>
-                <p className="font-manrope text-xl font-bold uppercase leading-[1.17] line-through">
-                  {PRICES.BASE.REGULAR}
-                </p>
-              </div>
-
-              <ul className="flex flex-col gap-[14px]">
-                {basePoints.map((point, index) => (
-                  <li key={index} className="flex items-center gap-[8px]">
-                    <div className="w-5 h-5 bg-textColorWhite rounded-[50%] flex-shrink-0" />
-                    <p className="uppercase font-semibold text-base leading-[1.17]">
-                      {point}
-                    </p>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <PurchaseBtn
-              onClick={() => {
-                handleClick("base");
-              }}
-              discount={false}
-              buttonVariant="small"
-              btnBg="#fff"
-              textColor="#0C0117"
-              customId="buy1"
-            />
-          </li>
-
           <li className="p-8 px-6 lg:px-9 lg:pt-9 rounded-[28px] w-[313px] h-[490px] l:h-[500px] lg:w-[360px] shadow-[4px_6px_10px_4px_rgba(167,93,243,0.20)_inset] relative mb-[26px] md:mb-0 flex flex-col justify-between bg-textColorWhite text-textColorBlack gradient-background">
-            {/* Best seller */}
             <div className="absolute top-[-21px] right-[50%] transform translate-x-1/2  h-[42px] w-[169px] gradient-diagonal flex justify-center items-center rounded-[18px] shadow-[0px_4px_16px_1px_rgba(0,0,0,0.25)]">
               <p className="text-textColorWhite uppercase text-base leading-[1.17] font-bold">
                 Best seller
               </p>
             </div>
-            {/* /Best seller */}
             <div>
-              <div className="flex justify-between items-center mb-[29px] lg:mb-[18px]">
+              <div className="flex justify-between items-center mb-[12px] lg:mb-[18px]">
                 <h3 className="uppercase font-semibold text-base leading-[1.17] lg:text-xl lg:leading-[1.17]">
                   {t("pro.title")}
                 </h3>
@@ -110,7 +53,7 @@ export default function Tariffs() {
                 </div>
               </div>
 
-              <div className="flex items-end gap-[22px]  mb-[29px]">
+              <div className="flex items-end gap-[22px]  mb-[20px]">
                 <p className="font-manrope text-[64px] font-bold uppercase leading-[1.17] lg:text-[74px] lg:leading-[1.17]">
                   {PRICES.PRO.SALE}
                 </p>
@@ -119,7 +62,7 @@ export default function Tariffs() {
                 </p>
               </div>
 
-              <ul className="flex flex-col gap-[14px]">
+              <ul className="flex flex-col gap-[6px]  lg:gap-[7px]">
                 {proPoints.map((point, index) => (
                   <li key={index} className="flex items-center gap-[8px]">
                     <div className="w-5 h-5 bg-textColorBlack rounded-[50%] flex-shrink-0" />
@@ -141,50 +84,6 @@ export default function Tariffs() {
               textColor="#fff"
               customId="buy2"
               isBlicking={true}
-            />
-          </li>
-
-          <li className="p-8 px-6 lg:px-9 lg:pt-9 rounded-[28px] w-[313px] h-[490px] l:h-[500px] lg:w-[360px] shadow-[4px_6px_10px_4px_rgba(167,93,243,0.20)_inset] gradient-tariff flex flex-col justify-between">
-            <div>
-              <div className="flex justify-between items-center mb-[29px] lg:mb-[18px]">
-                <h3 className="uppercase font-semibold text-base leading-[1.17] lg:text-xl lg:leading-[1.17] ">
-                  {t("expert.title")}
-                </h3>
-                <div className="bg-textColorWhite rounded-[30px] py-[10px] px-[34px]">
-                  <p className="gradient-secondary-text text-base leading-[1.17] uppercase font-bold">
-                    expert
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-end gap-[22px]  mb-[29px]">
-                <p className="font-manrope text-[64px] font-bold uppercase leading-[1.17] lg:text-[74px] lg:leading-[1.17]">
-                  {PRICES.EXPERT.SALE}
-                </p>
-                <p className="font-manrope text-xl font-bold uppercase leading-[1.17] line-through">
-                  {PRICES.EXPERT.REGULAR}
-                </p>
-              </div>
-
-              <ul className="flex flex-col gap-[14px]">
-                {expertPoints.map((point, index) => (
-                  <li key={index} className="flex items-center gap-[8px]">
-                    <div className="w-5 h-5 bg-textColorWhite rounded-[50%] flex-shrink-0" />
-                    <p className="uppercase font-semibold text-base leading-[1.187]">
-                      {point}
-                    </p>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <PurchaseBtn
-              onClick={() => {
-                handleClick("expert");
-              }}
-              discount={false}
-              customId="buy3"
-              buttonVariant="small"
             />
           </li>
         </ul>

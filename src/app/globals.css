@@ -284,7 +284,11 @@ a {
 
 .tab {
   width: fit-content;
-  padding: 13px 24px;
+  padding: 13px 12px;
+
+  @media (min-width: 500px) {
+    padding: 13px 24px;
+  }
 
   @media (min-width: 989px) {
     padding: 24px 48px;

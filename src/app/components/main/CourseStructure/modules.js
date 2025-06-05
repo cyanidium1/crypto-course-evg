@@ -26,6 +26,11 @@ export const useModules = () => {
           url: t("module1.tabs.tab3.url"),
           free: false,
         },
+        {
+          name: t("module1.tabs.tab4.name"),
+          url: t("module1.tabs.tab4.url"),
+          free: false,
+        },
       ],
     },
     module2: {
@@ -73,6 +78,11 @@ export const useModules = () => {
           url: t("module3.tabs.tab3.url"),
           free: false,
         },
+        {
+          name: t("module3.tabs.tab4.name"),
+          url: t("module3.tabs.tab4.url"),
+          free: false,
+        },
       ],
     },
     module4: {
@@ -115,6 +125,12 @@ export const useModules = () => {
           name: t("module5.tabs.tab2.name"),
           url: t("module5.tabs.tab2.url"),
           pro: false,
+          free: false,
+        },
+        {
+          name: t("module5.tabs.tab3.name"),
+          url: t("module5.tabs.tab3.url"),
+          pro: true,
           free: false,
         },
       ],
@@ -164,7 +180,7 @@ export const useModules = () => {
         {
           name: t("module7.tabs.tab3.name"),
           url: t("module7.tabs.tab3.url"),
-          pro: false,
+          pro: true,
           free: false,
         },
       ],
@@ -189,6 +205,31 @@ export const useModules = () => {
         {
           name: t("module8.tabs.tab3.name"),
           url: t("module8.tabs.tab3.url"),
+          pro: false,
+          free: false,
+        },
+      ],
+    },
+    module9: {
+      title: t("module9.title"),
+      num: t("module9.num"),
+      free: false,
+      tabs: [
+        {
+          name: t("module9.tabs.tab1.name"),
+          url: t("module9.tabs.tab1.url"),
+          pro: false,
+          free: false,
+        },
+        {
+          name: t("module9.tabs.tab2.name"),
+          url: t("module9.tabs.tab2.url"),
+          pro: false,
+          free: false,
+        },
+        {
+          name: t("module9.tabs.tab3.name"),
+          url: t("module9.tabs.tab3.url"),
           pro: false,
           free: false,
         },

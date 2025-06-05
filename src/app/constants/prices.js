@@ -1,7 +1,7 @@
 export const PRICES = {
   BASE: {
-    REGULAR: "30$",
-    SALE: "14$",
+    REGULAR: "99$",
+    SALE: "19$",
   },
   PRO: {
     REGULAR: "40$",
