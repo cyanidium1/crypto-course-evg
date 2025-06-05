@@ -13,6 +13,7 @@ export default function AccordionComponent({
   defaultExpandedKeys = [],
 }) {
   const f = useTranslations("Free");
+  const b = useTranslations("Bonus");
 
   return (
     <Accordion className="accordion" defaultExpandedKeys={defaultExpandedKeys}>
@@ -45,6 +46,14 @@ export default function AccordionComponent({
                 <div className="absolute top-[-6px] right-[-10px] rounded-[18419.209px] bg-textColorWhite shadow-[0_2px_4px_rgba(0, 0, 0, 0.25)_inset] px-[10px] py-[5px] md:py-[6px] md:px-[14.5px]">
                   <p className="text-[8px] md:text-[10px] leadibg-[1.17] md:leadibg-[1.17] font-bold uppercase gradient-secondary-text">
                     {f("text")}
+                  </p>
+                </div>
+              )}
+
+              {item.bonus && (
+                <div className="absolute top-[-6px] right-[-10px] rounded-[18419.209px] bg-textColorWhite shadow-[0_2px_4px_rgba(0, 0, 0, 0.25)_inset] px-[10px] py-[5px] md:py-[6px] md:px-[14.5px]">
+                  <p className="text-[8px] md:text-[10px] leadibg-[1.17] md:leadibg-[1.17] font-bold uppercase gradient-secondary-text">
+                    {b("text")}
                   </p>
                 </div>
               )}

@@ -214,6 +214,7 @@ export const useModules = () => {
       title: t("module9.title"),
       num: t("module9.num"),
       free: false,
+      bonus: true,
       tabs: [
         {
           name: t("module9.tabs.tab1.name"),

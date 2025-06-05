@@ -70,8 +70,8 @@ export default function TimerBlockHero() {
           </div>
         </div>
       </div>
-      <div className="hidden lg:block gradient-secondary-text text-base l:text-base font-semibold w-[168px] text-left shrink-0">
-        <span className="font-bold">PDF</span> "{t("pdfText")}"
+      <div className="hidden lg:block gradient-secondary-text text-base l:text-base font-semibold w-[168px] text-left shrink-0 leading-normal">
+        "{t("pdfText")}"
       </div>
     </div>
   );

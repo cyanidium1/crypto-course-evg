@@ -12,7 +12,6 @@ export default function Tariffs() {
   const proPoints = Object.values({
     item1: t("pro.point1"),
     item2: t("pro.point2"),
-    item3: t("pro.point3"),
     item4: t("pro.point4"),
     item5: t("pro.point5"),
     item6: t("pro.point6"),

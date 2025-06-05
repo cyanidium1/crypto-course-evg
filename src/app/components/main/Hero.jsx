@@ -19,7 +19,7 @@ import { PRICES } from "../../constants/prices";
 export default function Hero() {
   const t = useTranslations("Hero");
   const now = new Date();
-
+  now.setDate(now.getDate() + 2); // Add 2 days to current date
   const day = String(now.getDate()).padStart(2, "0");
   const month = String(now.getMonth() + 1).padStart(2, "0"); // Месяцы с 0 по 11
   const year = now.getFullYear();

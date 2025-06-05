@@ -174,7 +174,7 @@
       }
     },
     "module9": {
-      "title": "Trader Psychology *BONUS",
+      "title": "Trader Psychology",
       "num": "Module: 9",
       "tabs": {
         "tab1": {
@@ -193,7 +193,7 @@
     }
   },
   "Tariffs": {
-    "title": "Tariffs",
+    "title": "Buy course",
     "base": {
       "title": "Basic",
       "point1": "6 blocks",
@@ -300,6 +300,7 @@
     "item3": "working methods"
   },
   "Free": { "text": "Free lesson" },
+  "Bonus": { "text": "Bonus" },
   "About": {
     "title": "Speaker",
     "subtitle": "My name is ",
